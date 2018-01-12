@@ -1,0 +1,35 @@
+footer{
+    background-color: gray;    
+}
+
+footer ul{
+    display: flex;
+    padding: 30px;
+    flex-direction: row;
+}
+
+footer ul li ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+footer ul li ul li{
+    display: flex;
+    padding-top: 30px;
+}
+
+footer ul li ul li div{
+    font-size: 30px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+#apps img{
+    height: 70px;
+    margin-left: 55px;
+}
+
+footer li a{
+    color: white;
+}

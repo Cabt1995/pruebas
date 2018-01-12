@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header input{
+    display: none;
+}
+
+header
+{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    background-color: #0F1419;
+}
+
+header ul a{
+    color: white;
+    margin-top: 25px;
+    text-decoration: none;
+    -webkit-transition:all .4s;
+}
+
+ul{
+    color: white;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+header ul a:hover{
+    border-bottom: 3px solid gold;
+}
+

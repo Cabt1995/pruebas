@@ -1,0 +1,110 @@
+body{
+    background-image: url('../img/login.png');
+}
+#banner{
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/ingenieria.png');
+}
+
+.titulo{
+    color: white;
+    font-size: 35px;
+}
+
+.subtitulo{
+    color: white;
+    font-size: 25px;
+}
+
+.fecha{
+    color: white;
+    font-size: 20px;
+}
+
+.aviso{
+    color: white;
+    margin-top: 30px;
+}
+
+#banner p.icon-abajo{
+    color: white;
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+#logo{
+    width: 300px;
+    margin-top: 100px;
+}
+
+#contenidos{
+    display: flex;
+}
+
+#contenidos ul{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+#contenidos ul li ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#contenidos ul li ul li{
+    width: 100%;
+    align-content: center;
+    background-color: rgba(0,0,0,.2);
+    -webkit-transition: all .4s;
+}
+
+#contenidos li iframe
+{
+    margin-top: 55px;
+    margin-bottom: 30px;
+}
+
+#contenidos li img{
+    margin-bottom: -20px;
+}
+
+.boton{
+    color: white;
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+    padding-top: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: darkcyan;
+    -webkit-transition: background .7s;
+}
+
+#contenidos ul li ul li a
+{
+    text-decoration: none;
+}
+
+#contenidos ul li ul li:hover{
+    color: black;
+    background-color: rgba(255,255,255,0.2);
+}
+
+.boton:hover{
+    background-color: lightseagreen;
+}
+
+@media(max-width:1000px){
+    #contenidos ul{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #contenidos ul li ul{
+        display: flex;
+        flex-direction: column;
+    }
+}
